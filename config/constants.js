@@ -1,0 +1,9 @@
+exports.API_KEY =  process.env.API_KEY;
+exports.AUTHORIZATION_TOKEN =  process.env.AUTHORIZATION_TOKEN;
+exports.JWT_SECRET_TOKEN =  process.env.JWT_SECRET_TOKEN;
+exports.BASE_URL =  process.env.BASE_URL;
+exports.MAIL_USERNAME =  process.env.MAIL_USERNAME;   
+exports.MAIL_PASSWORD =  process.env.MAIL_PASSWORD;
+exports.MAIL_HOST =  process.env.MAIL_HOST;  
+exports.MAIL_PORT =  process.env.MAIL_PORT;
+exports.GOOGLE_FCM_SERVER_KEY = process.env.GOOGLE_FCM_SERVER_KEY;

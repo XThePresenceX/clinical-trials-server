@@ -1,0 +1,41 @@
+{
+  "name": "broccoli-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/cognizance-server"
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "aws-sdk": "^2.662.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "email-templates": "^6.1.1",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.1.6",
+    "fcm-node": "^1.5.2",
+    "firebase-admin": "^8.11.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.2",
+    "http-errors": "~1.6.3",
+    "https": "^1.0.0",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "node-cache": "^5.1.2",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.2",
+    "path": "^0.12.7",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "nodemon": "^2.0.3"
+  }
+}
